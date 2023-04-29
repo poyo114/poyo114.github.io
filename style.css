@@ -1,0 +1,23 @@
+
+  .div {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 1184px;
+  }
+  .image {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .image-sizer {
+    width: 100%;
+    padding-top: 42.22972972972973%;
+    pointer-events: none;
+    font-size: 0;
+  }
